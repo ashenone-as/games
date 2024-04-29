@@ -1,0 +1,63 @@
+.bg-image {
+    background-image: url('../img/banner-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:;
+    
+}
+
+.bg-image-2 {
+    background-image: url('../img/work-process-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+
+.bg-gray{
+    background-color:rgb(223, 223, 223)
+}
+
+.bg-purple{
+    background-color: blueviolet;
+}
+
+.box-shadow{
+    box-shadow: 10px 10px rgba(255, 255, 255, 0.151);
+}
+
+.box-shadow1{
+    box-shadow: 20px 20px rgba(255, 255, 255, 0.151);
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, .5);
+}
+.image-container {
+     position: relative;
+     display: inline-block;
+}
+
+.image-container img {
+    display: block;
+}
+
+.image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: inset 130px 130px 130px rgba(12, 8, 8, 0.7);
+}
+
+.hover:hover {
+    color: purple;
+}
+
+.btn-purple{
+    background-color: blueviolet;
+}

@@ -1,0 +1,49 @@
+@media only screen and (min-width: 1921px) {
+
+    .big-font {
+        font-size: 114px;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+
+    .big-font {
+        font-size: 114px;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .big-font {
+        font-size: 90px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .big-font {
+        font-size: 75px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .big-font {
+        font-size: 50px;
+        color: red;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    /* Small */
+    .big-font {
+        font-size: 30px;
+        color: green;
+    }
+}
